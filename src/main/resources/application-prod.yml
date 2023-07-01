@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: user-center-backend
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://111.230.250.58:3306/yovv?userSSL=false
+    username: yovv
+    password: yovv
+  # session登录态
+  session:
+    timeout: 84600
+server:
+  port: 8089
+  servlet:
+    context-path: /api
+  # 解决springboot内嵌tomcat启动ip6
+  address: 0.0.0.0
+

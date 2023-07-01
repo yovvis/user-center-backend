@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: user-center-backend
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://111.230.250.58:3306/yovvis
+    username: yovvis
+    password: yovvis
+  # session登录态
+  session:
+    timeout: 84600
+server:
+  port: 8089
+  servlet:
+    context-path: /api
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+  global-config:
+    db-config:
+      logic-delete-field: isDelete
+      logic-delete-value: 1
+      logic-not-delete-value: 0
