@@ -15,10 +15,10 @@ import java.net.UnknownHostException;
 @Slf4j
 @SpringBootApplication
 @MapperScan("com.yovv.usercenter.mapper")
-public class YovvUserCenterApplication {
+public class MainApplication {
 
     public static void main(String[] args) throws UnknownHostException {
-        SpringApplication application = new SpringApplication(YovvUserCenterApplication.class);
+        SpringApplication application = new SpringApplication(MainApplication.class);
         application.setApplicationStartup(new BufferingApplicationStartup(2048));
         ConfigurableApplicationContext app = application.run(args);
         log.info("(♥◠‿◠)ﾉﾞ  启动成功   ლ(´ڡ`ლ)ﾞ");

@@ -1,14 +1,22 @@
 spring:
+  profiles:
+    active: dev
   application:
     name: user-center-backend
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/yovvis
+#    username: root
+#    password: yovvis
     url: jdbc:mysql://111.230.250.58:3306/yovvis
     username: yovvis
     password: yovvis
   # session登录态
   session:
     timeout: 84600
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 server:
   port: 8089
   servlet:
