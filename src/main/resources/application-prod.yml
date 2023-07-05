@@ -4,8 +4,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://111.230.250.58:3306/yovv?userSSL=false
-    username: yovv
-    password: yovv
+    username: ENC(Xv0/Jy4e6216h0hvNxqKCVK5imCjV/9EIlCkMMb6f4LQ9lBfd2tkAe6roJqymY+N)
+    password: ENC(Xv0/Jy4e6216h0hvNxqKCVK5imCjV/9EIlCkMMb6f4LQ9lBfd2tkAe6roJqymY+N)
   # session登录态
   session:
     timeout: 84600

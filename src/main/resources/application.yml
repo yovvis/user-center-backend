@@ -9,8 +9,8 @@ spring:
 #    username: root
 #    password: yovvis
     url: jdbc:mysql://111.230.250.58:3306/yovvis
-    username: ENC(xJTw7DJH2IkockoHYg0h8rYwtw2eXBwk3QhJlmQJDF68zX2GZJBqZswDiQ1ZwDZ5)
-    password: ENC(xJTw7DJH2IkockoHYg0h8rYwtw2eXBwk3QhJlmQJDF68zX2GZJBqZswDiQ1ZwDZ5)
+    username: ENC(Xv0/Jy4e6216h0hvNxqKCVK5imCjV/9EIlCkMMb6f4LQ9lBfd2tkAe6roJqymY+N)
+    password: ENC(Xv0/Jy4e6216h0hvNxqKCVK5imCjV/9EIlCkMMb6f4LQ9lBfd2tkAe6roJqymY+N)
   # session登录态
   session:
     timeout: 84600
@@ -29,6 +29,3 @@ mybatis-plus:
       logic-delete-field: isDelete
       logic-delete-value: 1
       logic-not-delete-value: 0
-jasypt:
-  encryptor:
-    password: 123123
