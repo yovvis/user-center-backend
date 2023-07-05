@@ -30,6 +30,11 @@ public class User implements Serializable {
     private String userAccount;
 
     /**
+     * 用户个人简介
+     */
+    private String profile;
+
+    /**
      * 头像
      */
     private String avatarUrl;

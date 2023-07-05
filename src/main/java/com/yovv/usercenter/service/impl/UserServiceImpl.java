@@ -147,6 +147,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         safetyUser.setUserRole(orginUser.getUserRole());
         safetyUser.setCreateTime(orginUser.getCreateTime());
         safetyUser.setPlanetCode(orginUser.getPlanetCode());
+        safetyUser.setProfile(orginUser.getProfile());
         return safetyUser;
     }
 
